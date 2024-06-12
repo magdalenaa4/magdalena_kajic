@@ -6,6 +6,7 @@ font-family: "MagdalenaKajic";
 src:url("font/MagdalenaKajic.ttf");
 }
 
+
 body{
 	background-image: url('slike/slike/pozadina.jpg');
 }
@@ -31,9 +32,10 @@ a:link{
 }
 
 /*zajedničko*/
+
 h1{
 	font-size:42px;
-    	font-family: "MagdalenaKajic", sans-serif; 
+    font-family: "MagdalenaKajic", sans-serif;
 }
 h2{
 	font-family: "Montserrat", sans-serif;
