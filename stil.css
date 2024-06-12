@@ -1,6 +1,10 @@
 /*Elemente svih stranica stilizirajte kroz CSS koristeći stilove s vježbi sa promijenjenim bojama, fontovima,
 veličinama itd. na pregledan i uredan način. */
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+@font-face {
+font-family: "MagdalenaKajic";
+src:url("font/MagdalenaKajic.ttf");
+}
 
 body{
 	background-image: url('slike/slike/pozadina.jpg');
@@ -29,8 +33,7 @@ a:link{
 /*zajedničko*/
 h1{
 	font-size:42px;
-    font-family: "MagdalenaKajic";
-    src:url("font/MagdalenaKajic.sfd"); 
+    	font-family: "MagdalenaKajic", sans-serif; 
 }
 h2{
 	font-family: "Montserrat", sans-serif;
